@@ -1,0 +1,47 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    background-color: white;
+    color: grey;
+    background-image: url(https://sellleadsucceed.files.wordpress.com/2013/05/bigstock-bang-13050143.jpg);
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: 200px;
+    background-size: 200px auto;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+}
+
+.tiles {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.box {
+    width: 8vw;
+    height: 100px;
+    background-color: #b04ab5;
+    border: solid #6758a7 1px;
+}
+
+.reveal {
+    background-color: #6758a7 !important;
+}
+
+.secret {
+    text-align: center;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.black-text {
+    color: white !important;
+}
